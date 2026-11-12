@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="logo.png">
+    <title>3D models</title>
+	<!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="assets/css/leadmark.css">	
+	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="leaflet/leaflet.js"></script>
+	
+    
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+                        <a class="nav-link" href="#terkep">Map</a>
+                    </li>				
+					<li class="nav-item">
+                        <a class="nav-link" href="#models">3D models</a>
+                    </li>				
+					<li class="nav-item">
+                        <a class="nav-link" href="#geoturizmus">Geotourism</a>
+                    </li>				
+                    <li class="nav-item">
+                        <a class="nav-link" href="#virtual">Virtual opportunities</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#geosites">3D geosites modeling in Hungary</a>
+                    </li>					
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+			
+        </div>
+    </nav>
+    <!-- End Of Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="subtitle">Using drone photogrammetry for establishing a 3D geosite model application</h1>
+			<br> </br>
+			<h1 class="title">3D models</h1>  
+			<br> </br>			
+			<h1 class="subtitle">Made by: Edina Pál-Hajdú, Márton Pál and András Jung (Hungary)</h1>
+        </div>  
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>  
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header> 
+    <!-- End Of Page Header -->
+	
+	 <!-- Térkép -->
+	<section  id="terkep" class="section pt-0">
+        <div class="container">
+			<br> <br>
+            <h6 class="section-title text-center">Geosites in the map</h6>						
+            <h6 class="section-subtitle text-center mb-5 pb-3"> Click on the red dots</h6> 
+            <div id="terkep_helye"></div>
+		</div>
+    </section>	
+	<!-- End -->
+	
+	<!-- Modellek -->
+	<section id="models" class="section pt-0">
+        <div class="container">
+			<br> </br>
+			<h6 class="section-title text-center">Gallery of 3D models</h6>
+			<h6 class="section-subtitle mb-4 text-center">Click and enjoy:</h6>
+			<br> </br>		
+			<div>
+				<table >
+					<tbody>
+						<tr>
+							<td>
+							<h5 align="text-center">Szent György-hegy, Bazaltorgonák</h5>
+							<h6 align="text-center">Saint George Hill, Basalt Organs</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Szent György-hegy" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d0583a1bf5ec43d7860d0860054de14c/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td  >
+								<p>HU: A Szent György-hegy a Tapolcai-medence egyik híres tanúhegye, ami freatomagmás működés során kialakult maarok emléke. A több 10, helyenként 100 méteres vastagságú “bazaltsapka” az egykori maarkráterekben kialakult lávatavak maradványa. A tufagyűrűk, illetve a kráterek a Pannon-tó üledékeinek felszínén jöttek létre. A vulkáni működés záró szakaszában lávafröccs-kúpok, salakvulkánok keletkeztek a kráterekben, amelyek nyomai a Szent György-hegy tetején is láthatók. A híres bazaltorgonák az erózió (aprózódás, málás) hatására alakultak ki.</p>
+								<hr>
+								<p>EN: The Saint George Hill is one of the famous basalt residual hills of the Tapolca Basin, which is a remnant of the maar formed during phreatomagmatic activity. The ‘basaltic cap’, several 10 of metres and in places up to 100 metres thick, is the remnant of lava lakes formed in former maar craters. The tuff rings and craters were formed on the surface of the sediments of Lake Pannon. During the volcanic active phase, lava cones and cinder volcanoes formed in the craters, the traces of which can be seen on the top of Saint George Hill. The famous basalt organs were formed by erosion (mechanical, chemical).</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center">Alsóörs, Vöröskő tanösvény</h5>
+							<h6 align="text-center">Alsóörs, Red Stone Study Trail</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Alsóörs, bányaudvar" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d44749c3d0b348239821a3e32cb69e20/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>							<br> <br> <br> <br> <br> 
+							<td >
+								<p>HU: Alsóörs és környékén meghatározó táj- és településképi elem a perm időszaki vörös homokkő. Ezt főként építkezéseken használták, de sírköveket és kőkereszteket is készítettek belőle. A Balatonfelvidéki Homokkő Formáció anyaga az Egyenlítő környékén, száraz, félsivatagos tájon kanyargó folyók mentén, uralkodó kvarc anyagú törmelékből vált hosszú idő alatt kőzetté. A helyenként akár 1000 méteres vastagságú rétegsor vörös színét a benne előforduló vasásvány (hematit) adja.</p>
+								<p>Az itt található Vöröskő tanösvény nemcsak földtudományi értékeket, hanem élő természeti és kultúrtörténeti örökséget is bemutat.</p>
+								<hr>
+								<p>EN: The Permian red sandstone is a dominant landscape and townscape feature in and around Alsóörs. It was mainly used for building purposes, but was also used for gravestones and stone crosses. The material of the Balaton Upland Sandstone Formation was petrified over a long period of time from the predominant quartz debris along rivers meandering through arid semi-desert landscapes around the equator. The red colour of the strata, which are up to 1000 metres thick in places, is due to the presence of hematite (a common iron oxide compound). </p>
+								<p>The Red Stone Study Trail is not only a geosite, but also a living natural and cultural heritage.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Hegyestű</h5>
+							<h6 align="text-center">Hegyestű</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Hegyestű" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/681988564cb94a5e84c24606fbb6d8a1/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>							<br> <br> <br> <br> <br> 
+							<td >
+								<p>HU: A Hegyestű tetején megcsodálhatjuk a már felhagyott bazaltbányát, ami napjainkban geológiai bemutatóhelyként üzemel. Egyik jellemzője, hogy a külfejtést nem a tó felőli oldalon kezdték meg, így a Balaton irányából nézve megőrizte az eredeti, természetes formáját.</p>
+								<p>A közel 30 méteres magas bányafalat teljes egészében oszlopos elválású bazalt alkotja. A bánya északi oldalán erősen palagonitosodott alapanyagban általában nagyon hólyagos szövetű bazaltklasztok láthatók.</p>
+								<hr>
+								<p>EN: At the top of the Hegyestű, you can admire an abandoned basalt quarry, which is now a geological exhibition site. One of its features is that the quarrying was not started on the side facing the lake, so it has retained its original natural shape when viewed from Lake Balaton.</p>
+								<p>The quarry wall, which is almost 30 metres high, is entirely composed of columnar basalt. On the northern side of the mine, the highly schistose bedrock is generally composed of basalt clasts with a very vesicular fabric. </p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Csárda-hegy, Úrkúti-őskarszt</h5>
+							<h6 align="text-center">Csárda Hill, Úrkút Paleokarst</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Úrkút" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c803f9c4131e4b30a94d35cf81f0dd43/embed?ui_infos=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: Az Országos Kéktúra útvonalon, a Csárda-hegyen található az egyik legismertebb földtani bemutatóhely. A 20. század elején szénkutatás közben bukkantak rá itt a mangánércre. Az eocénban mészkőfedő települt ide, ami megvédte az eróziótól a területet. Ennek köszönhetően alakult ki ez az őskarszt és a kézzel bányászott mangánérc is. A néhány száz méter kiterjedésű területen katlanszerű töbrök sorakoznak, amik az alsó jura mészkőben oldódtak ki.</p>
+								<hr>
+								<p>EN: One of the most famous geological sites on the National Blue Trail is located on the Csárda Hill. Manganese ore was discovered here in the early 20th century during coal research. In the Eocene, limestone layers were sedimented here, protecting the area from erosion. This is how this karst and the hand-mined manganese ore were formed. The area, which covers a few hundred metres, is dotted with doline-like features  dissolved in the Lower Jurassic limestone.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center">Szentbékkállai-kőtenger</h5>
+							<h6 align="text-center">Szentbékkálla Stone Field</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Szentbékkállai-kőtenger" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/bed2b32e797c4f0fab415add7d0af255/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A legismertebb földtani képződmények, amik itt találhatók, a kovás kötőanyaggal rendkívül erősen cementált hatalmas kőtömbök, sziklacsoportok. Mindegyik kőtenger a Pannon-tóban lerakódott homok-, kavicsos homok- és kavicsrétegek (Békési Formáció Kállai Tagozat) utólagos cementációjával keletkezett. </p>
+								<hr>
+								<p>EN: The best-known geological formations found here are the huge blocks of rock, or rock clusters, which are extremely strongly cemented with siliceous material. All of these rocks were formed by post-cementation of sand and gravel layers deposited in the Pannonian Lake (Békés Formation).  </p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Balatonalmádi, Köcsi-tó</h5>
+							<h6 align="text-center">Balatonalmádi, Lake Köcsi</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Balatonalmádi, Köcsi-tó" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c288c80e70424f4b8cd1aedb006dc8a6/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A Balaton-felvidék egyik legjellemzőbb képződményét láthatják itt az érdeklődők, a késő perm korú vörös homokkövet. A három rétegcsoportra osztható Balatonfelvidéki Homokkő alsó szakasza durvatörmelékes, a vörös konglomerátummal települ a gyűrt, idősebb paleozoos aljzatra. A középső harmadban vörös homokkő és aleurolit egymással váltakozó sorozata jellemző, míg a felső harmadban az üledékanyag ismételt durvulása következik be konglomerátum betelepülések megjelenésével. </p>
+								<p>A Balatonfelvidéki Homokkőben találkozhatunk meglehetősen ritka ősmaradványokkal is (fák, spórák). Ez adja a környék egyik legkedveltebb építőkövét, továbbá a vörös homokkő kiváló altalaját képezi a Balaton-felvidéki szőlőültetvényeknek is.</p>
+								<hr>
+								<p>EN: Here you can see one of the most characteristic formations of the Balaton Uplands, the late Permian red sandstone. The lower part of the Balaton Upland Sandstone, which is divided into three stratigraphic groups, is coarse-grained, with the red conglomerate deposited on the weathered, older Palaeozoic subsoil. The middle third is characterised by an alternating sequence of red sandstone and aleurolite, while the upper third is characterised by repeated coarsening of the sedimentary material with conglomerate emplacement. </p>
+								<p>The Balaton Upland Sandstone also contains quite rare fossils (trees, spores), which is one of the most popular building stones in the area and an excellent soil source for vineyards in the Balaton Upland.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Kapolcs, Királykő</h5>
+							<h6 align="text-center">Kapolcs, King's Stone</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Kapolcs, Király-kő" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/395b483fc94e44799e840d6ebe89da34/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A kapolcsi Király-kő látványos, oszlopos elválású bazaltja alatti piroklasztit feltárásokban tanulmányozhatjuk a Fekete-hegy maaregyüttese legészakibb vulkánjának diatrémáját. </p>
+								<p>A szelvényben lapillitufa- és tufarétegek váltakoznak. Eltérően a Fekete-hegy bazaltfennsíkjának déli részétől, az ebben a maarban felépült salakkúp szinte teljesen erodálódott: csak nyomai találhatók meg, ellentétben pl. a Boncsos-tető látványos salakvulkáni kúpjaival.</p>
+								<hr>
+								<p>EN: The spectacular pyroclasticite outcrops beneath the columnar basalt of the Király’ Stone in Kapolcs reveal the diatreme of the northernmost volcano of the Fekete-hegy maar massif.</p>
+								<p>The section alternates layers of lapilli tuff and tuff. Unlike the southern part of the Fekete-hegy basalt plateau, the cinder cone in this maar is almost completely eroded: only traces of it can be found, unlike the visible cinder volcanic cones of e.g. the Boncsos-tető.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Balatonkenese, Magaspart</h5>
+							<h6 align="text-center">Balatonkenese, High Shore</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Balatonkenese, Magaspart" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/62361c2a92814650a2b0b6b7f080f8a4/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A fehérsárga, már messziről is jól látható falakat egykor a Balaton hullámverése mosta ki, amit a Pannon-beltenger homokos-agyagos üledékei építenek fel. A feltárások jól prezentálják az Újfalui Formáció Tihanyi Tagozatának rétegsorát. A magaspart szelvényében a lerakódott rétegek ciklusainak rétegződését láthatjuk. Jól felismerhető az egykori hullámzás és a vízáramlások formálta hullámos, ferde rétegzés is.</p>
+								<hr>
+								<p>EN: The white-yellow walls, visible from afar, were once washed away by the ripples of Lake Balaton, built up by the sandy-clayey sediments of the Pannonian Basin. The outcrops give a good representation of the Tihany Member of the Újfalu Formation. The section of the high shore shows the stratification of the deposited strata cycles. The former undulations and the wavy, oblique stratification shaped by the water currents are also clearly recognizable.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Csopak, Nádaskút</h5>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Csopak, Nádaskút" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c90ea9375b2a4159aed1f18bca7a42b6/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A Balaton-felvidék egyik legrégibb védett geológiai szelvénye a perm és a triász határát bemutató feltárás (vasúti bevágás). Az alsó szakaszát szárazföldi, folyóvízben lerakódott, felső perm Balatonfelvidéki Homokkő alkotja. A triászi rétegsor legalsó részét szürke, dolomitos aleurolit és homokkő alkotja. A rétegsorban felfelé a törmelék mennyisége fokozatosan csökken, míg a karbonáttartalom nő; a homokkövet sárgásszürke, vékonyréteges, likacsos dolomit váltja fel. Az ősmaradványok szoóványosan fordulnak benne elő.</p>
+								<hr>
+								<p>EN: One of the oldest protected geological sections of the Balaton Upland is the Permian-Triassic key section (railway cut). The lower part is formed by the onshore, river deposited, upper Permian Balaton Uplands Sandstone. The lowest part of the Triassic sequence is composed of grey dolomitic aleurolite and sandstone. Upwards in the sequence, the amount of debris gradually decreases while the carbonate content increases; the sandstone is replaced by yellowish grey thin-bedded silty dolomite. Fossils are scattered throughout.</p>
+								<br> <br> <br> <br> <br>							
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Tihany, Hármashegyi-kúp</h5>
+							<h6 align="text-center">Tihany, Hármashegy Cone</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Tihany, Hármashegyi-kúp" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3ad9b8000e8c4ec9b90c5ba0213a4473/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A Tihanyi-félsziget kiemelkedően jelentős szerepet tölt be a geopark földtani-morfológiai értékei között. A félszigetet felső perm vörös homokkőre és alsó triász rétegekre települő középső-felső miocén összlet építi fel. A felszínen csak felső miocén üledékes és vulkáni kőzet fordul elő, a félszigetet felépítő teljes rétegsor azonban minden érdeklődő számára megismerhető a vulkanoklasztitok zárványaiként.</p>
+								<p>Részben a Pannon-tenger tavi rétegeihez kapcsolódnak az egykori tihanyi hévforrások üledékei is. A Tihanyi-félszigeten több tucat hévforráskúp többé-kevésbé épségben őrződött meg máig. Ezek részben a maarokhoz kapcsolódnak, üledékeik nagyon jól rétegzett, laminákból álló, kovásodott szinteket alkotnak.</p>
+								<hr>
+								<p>EN: The Tihany Peninsula is of outstanding geological and morphological importance in the geopark. The peninsula is built up by a Middle-Upper Miocene assemblage overlying Upper Permian red sandstone and Lower Triassic strata. Only Upper Miocene sedimentary and igneous rocks occur at the surface, but the entire sequence of strata that builds up the peninsula can be seen as inclusions of volcaniclastic rocks. </p>
+								<p>The sediments of the former thermal springs of Tihany are also partly related to the lake strata of the Pannonian Sea. On the Tihany Peninsula, dozens of cones of former hot springs have survived more or less intact to the present day. They are partly connected to the maar, and their sediments form very well stratified, hardened layers of laminated rock.</p>								
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Tihany, Aranyház</h5>
+							<h6 align="text-center">Tihany, Golden House</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Tihany, Aranyház" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/681ae5ae814e47f8b49d833aa6746c26/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A Tihanyi-félsziget kiemelkedően jelentős szerepet tölt be a geopark földtani-morfológiai értékei között. A félszigetet felső perm vörös homokkőre és alsó triász rétegekre települő középső-felső miocén összlet építi fel. A felszínen csak felső miocén üledékes és vulkáni kőzet fordul elő, a félszigetet felépítő teljes rétegsor azonban minden érdeklődő számára megismerhető a vulkanoklasztitok zárványaiként.</p>
+								<p>Részben a Pannon-tenger tavi rétegeihez kapcsolódnak az egykori tihanyi hévforrások üledékei is. A Tihanyi-félszigeten több tucat hévforráskúp többé-kevésbé épségben őrződött meg máig. Ezek részben a maarokhoz kapcsolódnak, üledékeik nagyon jól rétegzett, laminákból álló, kovásodott szinteket alkotnak.</p>
+								<hr>
+								<p>EN: The Tihany Peninsula is of outstanding geological and morphological importance in the geopark. The peninsula is built up by a Middle-Upper Miocene assemblage overlying Upper Permian red sandstone and Lower Triassic strata. Only Upper Miocene sedimentary and igneous rocks occur at the surface, but the entire sequence of strata that builds up the peninsula can be seen as inclusions of volcaniclastic rocks. </p>
+								<p>The sediments of the former thermal springs of Tihany are also partly related to the lake strata of the Pannonian Sea. On the Tihany Peninsula, dozens of cones of former hot springs have survived more or less intact to the present day. They are partly connected to the maar, and their sediments form very well stratified, hardened layers of laminated rock.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<h5 align="text-center" >Csobánc vára</h5>
+							<h6 align="text-center">Csobánc, Castle</h6>
+							<br>
+							<div class="sketchfab-embed-wrapper" style="text-align:center"> <iframe title="Csobánc Vára" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5e2e50cbc14c4597a73d58851d33c5c9/embed?annotations_visible=1&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_ar=0&ui_vr=0"> </iframe> </div>
+							<br> <br> <br> <br> <br> 
+							<td style="width: 60%;" >
+								<p>HU: A Csobánc a Tapolcai-medence egyik híres tanúhegye, ami ugyancsak freatomagmás működés során kialakult maarok maradványa. A több 10, helyenként 100 méteres vastagságú “bazaltsapka” az egykori maarkráterekben kialakult lávatavak maradványa. A tufagyűrűk, illetve a kráterek a Pannon-tó üledékeinek felszínén jöttek létre.</p>
+								<hr>
+								<p>EN: The Csobánc is one of the famous residual hills of the Tapolca Basin, which is also a remnant of a maar formed during phreatomagmatic activity. The 'basaltic cap', several tens of metres , sometimes 100 metres thick, is the remnant of lava lakes formed in former maar craters. The tuff rings and craters were formed on the surface of the sediments of Lake Pannon.</p>
+								<br> <br> <br> <br> <br> 
+							</td>
+						</tr>												
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+	
+	
+    <section id="geoturizmus" class="section pt-0">
+        <div class="container">
+			<br> </br>
+			<h6 class="section-title text-center">Geotourism</h6>
+			<h6 class="section-subtitle mb-4 text-center">Earth science heritage protection</h6>
+				<div class="center">
+					<div class="center">
+						<br> </br>
+						<p align="justify">Nowadays, geotourism is a more and more widely known branch of tourism. Owing to this, it is
+								organically connected to modern science communication solutions, since one of its main goals is
+								to protect geoscience values and present them sustainably to the general public. In recent years,
+								in the scientific community, we have been able to come across easy-to-interpret
+								geocommunication applications, mainly at various conferences. Through these events and
+								methods, a larger group of researchers can get in touch with geoheritage scientific results that
+								apply the possibilities of new IT developments, field data collection, and GIS.</p>					
+					</div>
+				</div>
+		</div
+    </section>
+    <!-- End -->
+	
+	<section id="virtual" class="section pt-0">
+        <div class="container">
+			<br> </br>
+			<h6 class="section-title text-center">Virtual opportunities</h6>
+			<h6 class="section-subtitle mb-4 text-center">3D visualisation</h6>
+				<div class="row justify-content-between">
+					<div class="center">
+						<br> </br>
+						<p align="justify">
+							However, the most important is the opening effect of the various virtual opportunities that make
+							field-based scientific visual content available to a larger audience using the Internet: spectacular
+							and important geosites sometimes cannot be enjoyed by everyone due to various restrictions,
+							limitations, or even distance. The 3D visualisation method in the case of geoheritage has not been
+							used widely in Hungary yet, but some applications are available in other countries: e.g. in some
+							Spanish (Martínez-Graña et al., 2019) and Greek (Papadopoulou et al., 2022) areas and geoparks,
+							there are already communication and educational platforms working on this basis.
+						</p>	
+					</div>					
+				</div>              
+        </div>
+    </section>
+	<!--End-->
+	
+	<section id="geosites" class="section pt-0">
+        <div class="container">
+			<br> </br>
+			<h6 class="section-title text-center">3D geosites modeling in Hungary</h6>
+			<h6 class="section-subtitle mb-4 text-center">Bakony–Balaton UNESCO Global Geopark</h6>
+				<div class="center">
+					<div class="center">
+						<br> </br>
+						<p align="justify">To introduce this practice in Hungary, a 3D-based, freely available web platform was created using
+								an open-source mapping software about the most important geosites of the Balaton Uplands
+								(which have already been selected based on a geosite evaluation - Pál & Albert, 2021). The basis of
+								the models is the toolbox of UAV photogrammetry, which I used during my work to generate the
+								data. The drone survey of the 7 designated geosites took place over several field days. The
+								compiled models – based on the photos taken in the field – were then uploaded to a web
+								environment. Visitors can access the web interface from anywhere without any temporal and
+								physical restrictions. With the help of additional interactive scientific descriptive materials, we can
+								more easily communicate the scientific information that can be connected to the presented
+								geosite. Planning future tourism activities, looking through the geoscientific wonders of the
+								Balaton Uplands and effective science interpretation are the most important designated aims. This
+								way, this digital form of communication can become more widely known in Hungary as well, and
+								the concept of protecting geoheritage could reach the general public. Hopefully, this application
+								may generate more visitor numbers for the presented geosites too.</p>					
+					</div>				
+				</div>
+		</div>				
+    </section>
+
+	
+	<section id="contact" class="section has-img-bg pb-0">
+        <div class="container">	         
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+					<h3 >Contact us:</h3>
+					<br> </br>
+                    <h5 class="mb-0">E-mail:</h5>			
+					<h6 class="mb-0">Edina Pál-Hajdú</h6>					
+                    <p class="mb-0">hajdu.edina@inf.elte.hu</p>
+                    <p></p>
+					<h6 class="mb-0">Márton Pál</h6>					
+                    <p class="mb-0">pal.marton@inf.elte.hu</p>
+                    <p></p>
+					<h6 class="mb-0">András Jung</h6>
+                    <p class="mb-0">jung@inf.elte.hu</p>
+                </div>
+				<div class="col-sm-3 sidenav">
+				  <h4 style="color:#white">Supporters:</h4>
+				  <br>
+				  <p align="justify">The project was supported by the Balaton Uplands National Park Directorate.</p>						
+				<p align="justify">Supported by the ÚNKP-22-2 New National Excellence Program of the Ministry for Culture and Innovation from the source of the National Research, Development and Innovation Fund.</p>	
+				<p align="justify">The authors were supported by Project no. TKP2021-NVA-29, that has been implemented with the support provided by the Ministry of Culture and Innovation of Hungary from the National Research, Development and Innovation Fund, financed under the TKP2021-NVA funding scheme.</p>	
+				</div>
+            </div>          	
+        </div>
+    </section>
+
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="assets/js/leadmark.js"></script>	
+	
+	<script>
+	
+		var pont_style = {
+				radius: 5,
+				fillColor: "red",
+				color: "black",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.5
+			};			
+
+			var map=L.map('terkep_helye', {
+				center: [46.9836, 17.6941],
+				zoom: 10.2,
+				minZoom: 7,
+				maxZoom: 15,
+			});		
+			
+			//térkép
+			var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{id: 'OpenStreetMap', attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);				
+			
+			//geojson 
+			var x=new XMLHttpRequest();
+				x.open('get','geotopok.geojson',false);
+				x.send();
+			var d=JSON.parse(x.responseText);
+			var pontok=L.geoJSON(d,{
+				pointToLayer: function (feature, latlng) {
+					return L.circleMarker(latlng, pont_style);
+					},
+				onEachFeature: function (feature, layer) {
+					layer.bindPopup(L.popup({maxHeight: 225}).setContent(feature.properties.nev));
+					}
+				}).addTo(map);	
+	</script>
+	
+	
+</body>
+</html>
+ 
